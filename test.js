@@ -42,3 +42,17 @@ test('chatworkMessages', () => {
       expect(req.url).toEqual('/v2/rooms/12345/messages?force=0')
     })
 })
+
+test('chatworkMessages (force=1)', () => {
+  const { port } = server.address()
+  return chatworkMessages({
+    endpoint: `http://127.0.0.1:${port}/v2/rooms/<%= roomId %>/messages?force=<%= force %>`,
+    roomId: 12345,
+    force: true,
+  })
+    .then(messages => {
+      expect(messages).toEqual([ MESSAGE ])
+      expect(req.headers).toHaveProperty('x-chatworktoken', 'XXX')
+      expect(req.url).toEqual('/v2/rooms/12345/messages?force=1')
+    })
+})
