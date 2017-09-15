@@ -1,0 +1,17 @@
+{
+  "name": "chatwork-messages",
+  "version": "1.0.0",
+  "description": "Fetch chatwork messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "got": "^7.1.0",
+    "lodash.template": "^4.4.0"
+  },
+  "devDependencies": {
+    "jest": "^21.1.0"
+  }
+}
