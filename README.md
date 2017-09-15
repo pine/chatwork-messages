@@ -7,6 +7,12 @@ chatwork-messages
 $ yarn add chatwork-messages
 ```
 
+or
+
+```
+$ npm i -S chatwork-messages
+```
+
 ```javascript
 const chatworkMessages = require('chatwork-messages')({ token: 'XXX' })
 
