@@ -6,12 +6,12 @@
   "scripts": {
     "test": "jest"
   },
-  "license": "MIT",
   "dependencies": {
     "got": "^7.1.0",
     "lodash.template": "^4.4.0"
   },
   "devDependencies": {
     "jest": "^21.1.0"
-  }
+  },
+  "license": "MIT"
 }
