@@ -25,7 +25,7 @@ chatworkMessages({ roomId: 40000000 })
 ### require('chatwork-messages')({ token: 'XXX', ... })
 Create fetch message function. Default values are following.
 
-```
+```javascript
 {
   force: false,
   endpoint: 'https://api.chatwork.com/v2/rooms/<%= roomId %>/messages?force=<%= force %>',
@@ -36,7 +36,7 @@ Create fetch message function. Default values are following.
 Fetch chatwork message function.
 The following parameters are usable.
 
-```
+```javascript
 {
   token: 'XXX',
   force: false,
