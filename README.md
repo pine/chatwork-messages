@@ -7,6 +7,9 @@ chatwork-messages
 [![Dependency Status](https://img.shields.io/david/pine/chatwork-messages.svg?style=flat-square)](https://david-dm.org/pine/chatwork-messages)
 [![devDependency Status](https://img.shields.io/david/dev/pine/chatwork-messages.svg?style=flat-square)](https://david-dm.org/pine/chatwork-messages#info=devDependencies)
 
+## Requirements
+
+- Node v6 or later
 
 ## Getting started
 
