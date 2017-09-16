@@ -23,6 +23,8 @@ or
 $ npm i -S chatwork-messages
 ```
 
+Enjoy!
+
 ```javascript
 const chatworkMessages = require('chatwork-messages')({ token: 'XXX' })
 
