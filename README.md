@@ -5,7 +5,7 @@ chatwork-messages
 [![Build Status](https://img.shields.io/travis/pine/chatwork-messages/master.svg?style=flat-square)](https://travis-ci.org/pine/chatwork-messages)
 [![Build Status](https://img.shields.io/appveyor/ci/pine/chatwork-messages/master.svg?style=flat-square&maxAge=2592000)](https://ci.appveyor.com/project/pine/chatwork-messages/branch/master)
 [![Dependency Status](https://img.shields.io/david/pine/chatwork-messages.svg?style=flat-square)](https://david-dm.org/pine/chatwork-messages)
-[![devDependency Status](https://img.shields.io/david/dev/pine/chatwork-messages.svg?style=flat-square)](https://david-dm.org/pine/chatwork-messages#info=devDependencies)
+[![devDependency Status](https://img.shields.io/david/dev/pine/chatwork-messages.svg?style=flat-square)](https://david-dm.org/pine/chatwork-messages#info=devDependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/pine/chatwork-messages.svg)](https://greenkeeper.io/)
 
 ## Requirements
 
